@@ -148,71 +148,93 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;    
-    padding: 5px;              
+    padding: 5px;             
 }
 
  .bcolor8{
-    background-color: cornflowerblue;    
- }
+    background-color: #333;    
+ } 
 
- .bcolor9{
-    background-color: beige;
-    height: 300px;
+ .bcolor9{    
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #628bf7;
     padding: 20px;    
  }
 
  .col1{
-    flex-basis: 25%;
-    background-color: blue;
+    flex-basis: 25%;    
  }
 
  .col2{
-    flex-basis: 70%;
-    background-color: white;
+    flex-basis: 70%;    
     display: flex;
     justify-content: space-between;
  }
 
- .bcolor10{
-    background-color: green;
+ .flex-b{    
     flex-basis: 17.5%;
+    line-height: 25px;
+    color: #628bf7;
  }
 
- .bcolor11{
-    background-color: aquamarine;
-    flex-basis: 17.5%;
+ li{
+    color: white;
  }
 
- .bcolor12{
-    background-color: black;
-    flex-basis: 17.5%;
- }
-
- .bcolor13{
-    background-color: yellow;
-    flex-basis: 17.5%;
- }
-
- .bcolor14{
-    height: 200px;
+ .bcolor14{    
     width: 80%;
     margin: auto;
-        display: flex;
-    justify-content: space-between;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;    
     padding: 20px;
  }
 
  .bcolor15{    
-    background-color: black;
-    flex-basis: 20%;
+    flex-basis: 20%;    
  }
 
- section{
-    margin-bottom: 300px;
+ .bcolor16{    
+    flex-basis: 20%;
+    text-align: right;    
+ } 
+
+ .fn1{
+    font-size: 30px;
+    color: #628bf7;
  }
+
+ .limg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+ }
+
+ .limg img{
+    width: 15px;
+    height: 15px;    
+ }
+
+ .arrow{
+    font-size: x-small;
+ }
+
+ .icons{
+    color: white;
+    margin-right: 20px;
+ }
+
+ .reg{
+    border: 1px solid #628bf7;
+    border-radius: 15px;
+    padding: 6px;
+    background-color: #628bf7;
+    color: white;    
+ }
+
+ 
+
+ 
