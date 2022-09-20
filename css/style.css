@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .container{    
+    background-image: url( ../img/jumbo.png );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+  } 
+
+  .cont1{       
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;   
+  }
+
+  .pad{
+    padding: 6px;
+  }
+  
+  .mar-r{
+    margin-right: 15px;
+  }
+
+  .bw-rad{
+    border: 1px solid white;
+    border-radius: 15px;
+  }
+
+  .bg-rad{
+    border: 1px solid #333;
+    border-radius: 15px;
+  }
+
+  .boxg{     
+    flex-basis: 20%;      
+  }
+
+  .boxb{        
+    flex-basis: 40%;
+    display: flex;
+    color: white;      
+  }
+
+  .boxn{        
+    flex-basis: 20%;
+    /* text-align: right; */
+      
+  }
+
+  .cont2{        
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .title{
+    text-align: center;    
+    padding: 30px;
+    color: white;
+  }
+
+  .text{
+    text-align: center;    
+    padding: 20px;
+    color: white;
+  }
+
+  .but{
+    text-align: center;    
+    padding: 20px;    
+  }
+
+  .b-white{
+    color: #333;
+    font-weight: bold;
+  }
+
+  .b-gray{
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* .cont3{
+    height: 300px;    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .bcolor1{
+    background-color: lightpink;
+  }
+
+  .bcolor2{
+    background-color: gray;
+  }
+
+  .bcolor3{    
+    background-color: black;
+    flex-basis: 40%;
+  }
+
+  .bcolor4{
+    background-color: darkgreen;
+    flex-basis: 40%;
+  }
+
+  .ord1{
+    order: -1;
+  }
+
+  .cont4{
+    height: 400px;    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+ .bcolor5{
+    background-color: bisque;
+    flex-basis: 20%;
+ }
+
+ .bcolor6{
+    background-color: darkorange;
+    flex-basis: 60%;
+ }
+
+ .bcolor7{
+    background-color: dodgerblue;
+    flex-basis: 20%;
+ }
+
+ .bcolor8{
+    background-color: cornflowerblue;    
+ }
+
+ .bcolor9{
+    background-color: beige;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+    padding: 20px;    
+ }
+
+ .col1{
+    flex-basis: 25%;
+    background-color: blue;
+ }
+
+ .col2{
+    flex-basis: 70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .bcolor10{
+    background-color: green;
+    flex-basis: 17.5%;
+ }
+
+ .bcolor11{
+    background-color: aquamarine;
+    flex-basis: 17.5%;
+ }
+
+ .bcolor12{
+    background-color: black;
+    flex-basis: 17.5%;
+ }
+
+ .bcolor13{
+    background-color: yellow;
+    flex-basis: 17.5%;
+ }
+
+ .bcolor14{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+        display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 20px;
+ }
+
+ .bcolor15{    
+    background-color: black;
+    flex-basis: 20%;
+ } */
