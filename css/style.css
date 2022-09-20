@@ -96,11 +96,7 @@
     align-items: center;
   }
 
-  /* .bcolor1{
-    background-color: lightpink;
-  } */
-
-  .bcolor2{
+   .bcolor2{
     background-color: lightgray;
   }
 
@@ -128,8 +124,7 @@
     order: -1;
   }
 
-  /* .cont4{
-    height: 400px;    
+  .cont4{       
     width: 80%;
     margin: auto;
     display: flex;
@@ -138,20 +133,23 @@
     padding: 20px;
   }
 
- .bcolor5{
-    background-color: bisque;
-    flex-basis: 20%;
- }
+  .bc-rad{
+    border: 1px solid #628bf7;
+    border-radius: 15px;
+    background-color: #628bf7;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
 
- .bcolor6{
-    background-color: darkorange;
-    flex-basis: 60%;
- }
-
- .bcolor7{
-    background-color: dodgerblue;
-    flex-basis: 20%;
- }
+.bcolor7{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+    padding: 5px;              
+}
 
  .bcolor8{
     background-color: cornflowerblue;    
@@ -217,4 +215,4 @@
 
  section{
     margin-bottom: 300px;
- } */
+ }
