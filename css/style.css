@@ -50,7 +50,7 @@
 
   .boxn{        
     flex-basis: 20%;
-    /* text-align: right; */
+    text-align: center;
       
   }
 
@@ -88,38 +88,47 @@
     font-weight: bold;
   }
 
-  /* .cont3{
-    height: 300px;    
+  .cont3{       
     width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     padding: 20px;
+    align-items: center;
   }
 
-  .bcolor1{
+  /* .bcolor1{
     background-color: lightpink;
-  }
+  } */
 
   .bcolor2{
-    background-color: gray;
+    background-color: lightgray;
   }
 
   .bcolor3{    
-    background-color: black;
-    flex-basis: 40%;
+    flex-basis: 60%;
+    text-align: end;
+    margin-right: 5rem;               
   }
 
-  .bcolor4{
-    background-color: darkgreen;
-    flex-basis: 40%;
+  .bcolor4{    
+    flex-basis: 40%;          
+  }
+  
+  h2{
+    font-size: 2em;
+    line-height: 35px;
+    margin-bottom: 30px;
+  }
+
+  p{
+    line-height: 25px;    
   }
 
   .ord1{
     order: -1;
   }
 
-  .cont4{
+  /* .cont4{
     height: 400px;    
     width: 80%;
     margin: auto;
@@ -204,4 +213,8 @@
  .bcolor15{    
     background-color: black;
     flex-basis: 20%;
+ }
+
+ section{
+    margin-bottom: 300px;
  } */
